@@ -14,4 +14,7 @@ describe Roman do
   it 'should convert 3 to III' do
     @roman.convert(3).must_equal "III"
   end
+  it 'should convert 4 to IV' do
+    @roman.convert(4).must_equal "IV"
+  end
 end
