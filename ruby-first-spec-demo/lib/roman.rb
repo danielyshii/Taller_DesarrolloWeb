@@ -11,6 +11,8 @@ class Roman
 				retorno = "#{unidad}#{cinco}"
 			elsif i == 4
 				retorno = "#{cinco}"
+			else
+				retorno = "#{retorno}#{unidad}"
 			end
 		end
 		retorno
