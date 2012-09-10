@@ -59,4 +59,7 @@ describe Roman do
   it 'should convert 18 to XVIII' do
     @roman.convert(18).must_equal "XVIII"
   end
+  it 'should convert 19 to XIX' do
+    @roman.convert(19).must_equal "XIX"
+  end
 end
