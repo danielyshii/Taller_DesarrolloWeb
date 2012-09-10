@@ -2,6 +2,7 @@ class Roman
   def convert(veces)
   		unidad = "I"
   		cinco = "V"
+  		diez  = "X"
   		retorno = ""
 
 		veces.times do |i|
@@ -11,12 +12,10 @@ class Roman
 				retorno = "#{unidad}#{cinco}"
 			elsif i == 4
 				retorno = "#{cinco}"
-			elsif i == 5
+			elsif i<8
 				retorno = "#{retorno}#{unidad}"
-			elsif i == 6
-				retorno = "#{retorno}#{unidad}"
-			elsif i == 7
-				retorno = "#{retorno}#{unidad}"
+			else
+				retorno = "#{unidad}#{diez}"
 			end
 		end
 		retorno
