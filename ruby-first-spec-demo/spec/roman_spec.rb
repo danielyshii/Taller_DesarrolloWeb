@@ -32,4 +32,7 @@ describe Roman do
   it 'should convert 9 to IX' do
     @roman.convert(9).must_equal "IX"
   end
+  it 'should convert 10 to X' do
+    @roman.convert(10).must_equal "X"
+  end
 end
