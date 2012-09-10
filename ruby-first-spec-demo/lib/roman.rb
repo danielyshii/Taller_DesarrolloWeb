@@ -4,7 +4,11 @@ class Roman
   		retorno = ""
 
 		veces.times do |i|
-			retorno = "#{retorno}#{unidad}"
+			if i == 0
+				retorno = "#{retorno}#{unidad}"
+			else i == 1
+				retorno = "#{retorno}#{unidad}"
+			end
 		end
 		retorno
 		
