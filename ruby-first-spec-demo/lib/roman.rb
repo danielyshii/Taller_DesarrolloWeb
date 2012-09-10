@@ -18,6 +18,8 @@ class Roman
 				retorno = "#{unidad}#{diez}"
 			elsif i==9
 				retorno	= "#{diez}"
+			else
+				retorno	= "#{diez}#{unidad}"
 			end
 		end
 		retorno
