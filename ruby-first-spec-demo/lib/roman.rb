@@ -20,8 +20,10 @@ class Roman
 				retorno	= "#{diez}"
 			elsif i == 10
 				retorno	= "#{diez}#{unidad}"
-			else
+			elsif i == 11
 				retorno	= "#{retorno}#{unidad}"
+			else
+				retorno = "#{retorno}#{unidad}"
 			end
 		end
 		retorno
