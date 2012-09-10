@@ -22,8 +22,10 @@ class Roman
 				retorno	= "#{diez}#{unidad}"
 			elsif i < 13
 				retorno	= "#{retorno}#{unidad}"
-			else
+			elsif i == 13
 				retorno	= "#{diez}#{unidad}#{cinco}"
+			else
+				retorno = "#{diez}#{cinco}"
 			end
 		end
 		retorno

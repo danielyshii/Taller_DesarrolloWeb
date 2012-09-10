@@ -47,4 +47,7 @@ describe Roman do
   it 'should convert 14 to XIV' do
     @roman.convert(14).must_equal "XIV"
   end
+  it 'should convert 15 to XV' do
+    @roman.convert(15).must_equal "XV"
+  end
 end
