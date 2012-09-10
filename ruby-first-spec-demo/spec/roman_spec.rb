@@ -23,4 +23,7 @@ describe Roman do
   it 'should convert 6 to VI' do
     @roman.convert(6).must_equal "VI"
   end
+  it 'should convert 7 to VII' do
+    @roman.convert(7).must_equal "VII"
+  end
 end
