@@ -11,4 +11,7 @@ describe Roman do
   it 'should convert 2 to II' do
     @roman.convert(2).must_equal "II"
   end
+  it 'should convert 3 to III' do
+    @roman.convert(3).must_equal "III"
+  end
 end
